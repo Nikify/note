@@ -24,7 +24,7 @@ document.onkeydown = keydown;
 
 function keydown(evt){
   if (!evt) evt = event;
-  if (evt.ctrlKey && evt.keyCode==32){ 
+  if (evt.ctrlKey && evt.keyCode==32 || evt.ctrlKey && evt.keyCode==190){ 
     toggleColor()
   }
 }
